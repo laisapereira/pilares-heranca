@@ -4,7 +4,9 @@ public class ConsultorDeVendas extends Consultor{
     private int qtdVendas;
     private String produtoPrincipal;
 
-    public ConsultorDeVendas(int qtdVendas, String produtoPrincipal) {
+    public ConsultorDeVendas(String cnpj, String formacaoPrincipal, int qtdVendas, String produtoPrincipal) {
+        super(cnpj, formacaoPrincipal);
+
         this.qtdVendas = qtdVendas;
         this.produtoPrincipal = produtoPrincipal;
     }

@@ -4,7 +4,8 @@ public class ConsultorFinanceiro extends Consultor{
 
     private boolean credenciadoAnbima;
 
-    public ConsultorFinanceiro(boolean credenciadoAnbima) {
+    public ConsultorFinanceiro(String cnpj, String formacaoPrincipal,boolean credenciadoAnbima) {
+        super(cnpj, formacaoPrincipal);
         this.credenciadoAnbima = credenciadoAnbima;
     }
 
@@ -23,6 +24,14 @@ public class ConsultorFinanceiro extends Consultor{
         System.out.println("Aguarde...");
         System.out.println("Fluxo de caixa analisado!");
         System.out.println("");
+    }
+
+    public boolean isCredenciadoAnbima() {
+        return credenciadoAnbima;
+    }
+
+    public void setCredenciadoAnbima(boolean credenciadoAnbima) {
+        this.credenciadoAnbima = credenciadoAnbima;
     }
 
     @Override

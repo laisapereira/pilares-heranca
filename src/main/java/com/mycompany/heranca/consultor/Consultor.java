@@ -4,6 +4,11 @@ public class Consultor {
     public String cnpj;
     public String formacaoPrincipal;
 
+    public Consultor(String cnpj, String formacaoPrincipal) {
+        this.cnpj = cnpj;
+        this.formacaoPrincipal = formacaoPrincipal;
+    }
+
     public String getCnpj() {
         return cnpj;
     }
