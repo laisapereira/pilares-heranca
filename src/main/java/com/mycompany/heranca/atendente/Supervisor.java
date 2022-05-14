@@ -12,7 +12,8 @@ public class Supervisor extends Atendente implements ILider {
         
     }
 
-    public Supervisor(String[] setoresResponsavel) {
+    public Supervisor(String[] setoresResponsavel, String setor, int cargaHoraria) {
+        super(setor, cargaHoraria);
         this.setoresResponsavel = setoresResponsavel;
     }
 
@@ -27,7 +28,7 @@ public class Supervisor extends Atendente implements ILider {
 
     @Override
     public void solicitarDesligamento() {
-
+        System.out.println("hello world");
     }
 
     @Override

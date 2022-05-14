@@ -11,8 +11,11 @@ public class Gerente extends Atendente implements ILider {
     private String turno;
     
     
-     public Gerente(String responsavel, String senioridade, String turno) {
-        this.responsavel = responsavel;
+     public Gerente(String responsavel, String senioridade, String turno, String setor, int cargaHoraria) {
+        super(setor, cargaHoraria);
+         
+         
+         this.responsavel = responsavel;
         this.senioridade = senioridade;
         this.turno = turno;
     }

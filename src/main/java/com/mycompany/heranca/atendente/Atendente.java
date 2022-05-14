@@ -5,6 +5,13 @@ public abstract class Atendente {
     private String setor;
     protected int cargaHoraria;
 
+    public Atendente(String setor, int cargaHoraria) {
+        this.setor = setor;
+        this.cargaHoraria = cargaHoraria;
+    }
+    
+    
+
     public String getSetor() {
         return setor;
     }
