@@ -1,6 +1,6 @@
 package com.mycompany.heranca.atendente;
 
-abstract public class Atendente {
+public abstract class Atendente {
     
     private String setor;
     protected int cargaHoraria;
