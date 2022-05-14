@@ -9,4 +9,19 @@ public class Supervisor extends Atendente {
     public void aceitarRelatorio() {
         
     }
+
+    public Supervisor(String[] setoresResponsavel) {
+        this.setoresResponsavel = setoresResponsavel;
+    }
+
+    public String[] getSetoresResponsavel() {
+        return setoresResponsavel;
+    }
+
+    public void setSetoresResponsavel(String[] setoresResponsavel) {
+        this.setoresResponsavel = setoresResponsavel;
+    }
+    
+    
+    
 }
