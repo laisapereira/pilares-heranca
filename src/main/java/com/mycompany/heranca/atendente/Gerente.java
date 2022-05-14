@@ -3,7 +3,9 @@
 package com.mycompany.heranca.atendente;
 
 
-public class Gerente extends Atendente {
+import com.mycompany.heranca.interfaces.ILider;
+
+public class Gerente extends Atendente implements ILider {
     private String responsavel;
     private String senioridade;
     private String turno;
@@ -18,7 +20,6 @@ public class Gerente extends Atendente {
     public String getResponsavel() {
         return responsavel;
     }
-     
 
     public String getSenioridade() {
         return senioridade;
@@ -43,11 +44,15 @@ public class Gerente extends Atendente {
     public void alterarCargaHoraria(){
         
     }
-   
-    
-    
-    
-    
-    
-    
+
+
+    @Override
+    public void solicitarDesligamento() {
+
+    }
+
+    @Override
+    public void rotacionarFuncionarios() {
+
+    }
 }

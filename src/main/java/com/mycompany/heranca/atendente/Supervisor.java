@@ -2,7 +2,9 @@
 package com.mycompany.heranca.atendente;
 
 
-public class Supervisor extends Atendente {
+import com.mycompany.heranca.interfaces.ILider;
+
+public class Supervisor extends Atendente implements ILider {
     private String[] setoresResponsavel;
     
     
@@ -21,7 +23,15 @@ public class Supervisor extends Atendente {
     public void setSetoresResponsavel(String[] setoresResponsavel) {
         this.setoresResponsavel = setoresResponsavel;
     }
-    
-    
-    
+
+
+    @Override
+    public void solicitarDesligamento() {
+
+    }
+
+    @Override
+    public void rotacionarFuncionarios() {
+
+    }
 }

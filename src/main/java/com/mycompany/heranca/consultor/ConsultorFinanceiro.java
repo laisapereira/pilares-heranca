@@ -4,6 +4,10 @@ public class ConsultorFinanceiro extends Consultor{
 
     private boolean credenciadoAnbima;
 
+    public ConsultorFinanceiro(boolean credenciadoAnbima) {
+        this.credenciadoAnbima = credenciadoAnbima;
+    }
+
     public void consultarDividas(){
         System.out.println("Atualmente não existem dívidas!");
         System.out.println("");
