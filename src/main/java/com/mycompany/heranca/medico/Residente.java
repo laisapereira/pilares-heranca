@@ -17,8 +17,7 @@ public class Residente extends Medico {
     }
     
     
-    
-    
+   
     public void substituirMedico() {
        if (this.isSubstituicaoSemanal()) { 
            
