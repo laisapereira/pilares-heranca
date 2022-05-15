@@ -15,18 +15,15 @@ public class Residente extends Medico {
         this.diasPlantao = diasPlantao;
         this.supervisor = supervisor;
     }
-    
-    
-   
+
     public void substituirMedico() {
        if (this.isSubstituicaoSemanal()) { 
            
            System.out.println("Esse médico, de crm: " + this.getCrm()
-                  + "vai subsituir um medico da semana");
+                  + " vai subsituir um medico da semana");
        }
     }
-    
-    
+
     public void status() {
         System.out.println("Os dias de plantao desse residente sao " + 
                 Arrays.toString(this.getDiasPlantao()));

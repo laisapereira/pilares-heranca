@@ -1,6 +1,6 @@
 package com.mycompany.heranca.consultor;
 
-public class Consultor {
+abstract class Consultor {
     public String cnpj;
     public String formacaoPrincipal;
 

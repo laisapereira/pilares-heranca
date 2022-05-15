@@ -1,6 +1,6 @@
 package com.mycompany.heranca.medico;
 
-public class Medico {
+abstract class Medico {
     private String crm;
     private String especialidade;
 
@@ -24,9 +24,5 @@ public class Medico {
     public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
     }
-    
-    
-    public void alterarEspecialidade() {
-        
-    }
+
 }

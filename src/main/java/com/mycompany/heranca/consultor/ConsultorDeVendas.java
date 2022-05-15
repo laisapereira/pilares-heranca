@@ -14,6 +14,7 @@ public class ConsultorDeVendas extends Consultor{
     public void venderProduto(){
         this.qtdVendas++;
         System.out.print(produtoPrincipal + " foi vendido!");
+        System.out.print("");
     }
 
     public int getQtdVendas() {

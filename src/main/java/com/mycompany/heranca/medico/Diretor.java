@@ -10,9 +10,9 @@ public class Diretor extends Medico implements ILider {
         super(crm, especialidade);
         this.enfermarias = enfermarias;
     }
-    
+
     public void mudarTurnos() {
-        System.out.println("Esse diretor, de crm" + this.getCrm() + "vai mudar "
+        System.out.println("Esse diretor, de crm " + this.getCrm() + " vai mudar "
                 + "os turnos dos internos e"
                 + " dos residentes");
     }
@@ -27,13 +27,13 @@ public class Diretor extends Medico implements ILider {
 
     @Override
     public void solicitarDesligamento() {
-        System.out.println("Esse diretor vai solicitar o desligamento"
+        System.out.println("Esse diretor vai solicitar o desligamento "
                 + "de algum medico ou residente");
     }
 
     @Override
     public void rotacionarFuncionarios() {
-        System.out.println("Esse diretor vai rotacionar os horarios de medicos"
+        System.out.println("Esse diretor vai rotacionar os horarios de medicos "
                 + " e residentes");
     }
     
