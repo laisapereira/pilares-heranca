@@ -7,7 +7,4 @@ Atividade 6 referente ao pilar 'Herança' de POO.
 
 Hospital - Diagrama UML abaixo:
 
-<div>
-  <img src="" alt="diagrama-UML"/>
-  
-<div>
+![UML](UML.png)
